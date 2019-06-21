@@ -1,0 +1,376 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*.nav1{
+  float: right;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+    .nav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  
+}
+
+/* Links inside the navbar */
+/*.nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.nav a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+ul{
+  margin:0;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+  }*/
+body{
+	font-family: Arial, Helvetica, sans serif;
+	overflow-x: hidden;
+	 margin: 0;
+    padding: 0;
+    
+    background-image: url(../images/ordering.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1500px;
+
+}
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 1000px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+caption{
+	text-align: center;
+}
+/*.hd{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold
+	color:#ff5722;
+}*/
+.header{
+	padding: 0 30px; 
+	background-color: #efefef;
+	overflow: hidden;
+}
+.nav{
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+
+}
+.nav_main{
+  background-color: #333;
+  font-family: Arial;
+	margin:  0 0 0 0;
+	padding: 0 0 0 0;
+
+}
+.nav_main ul{
+	margin:  0 0 0 0;
+	padding: 0 0 0 0;
+	/*border-top: 1px solid #dfdfdf; 
+	border-bottom: 1px solid #dfdfdf; */
+	
+}
+.row{
+	min-height: 300px;
+	overflow: hidden;
+}
+.nav_main ul li{
+	margin:  0 0 0 0;
+	padding: 3px 0 3px 0;
+	list-style: none;
+	display: inline-block;
+}
+.right-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/loginImage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.nav_main ul li a{
+float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav_main ul li a:hover{
+background-color: /*#baec5b*/red;
+}
+
+
+thead th{
+	border-bottom: 1px solid #bbbbbb;
+}
+
+form{
+	width: 45%;
+	height: 470px;
+	margin: 50px auto;
+	text-align:left;
+	padding: 20px;
+	border-radius: 5px; 
+
+
+}
+#form1{
+	min-height: 850px;
+}
+.frm{
+	clear: both;
+
+}
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5f9ea0;
+	border: none;
+	border-radius: 5px; 
+}
+table{
+	width: 80%;
+	margin: 20px auto;	
+	text-align:left; 
+}
+tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+	border: none;
+	height: 30px;
+	padding: 2px;
+}
+tr:hover{
+	background: #f5f5f5;
+}
+table tbody td.img{
+	width: 30px;
+}
+
+.input-group{
+	margin: 10px 0 10px 0;
+}
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border: 1px solid gray;
+	border-radius: 5px; 
+}
+
+.edit_btn{
+text-decoration: none;
+ padding: 2px 5px;
+ background: #2e8b57;
+ color: white;
+ border-radius: 3px;
+}
+.del_btn{
+text-decoration: none;
+ padding: 2px 5px;
+ background: #800000;
+ color: white;
+ border-radius: 3px;
+}
+.content{
+	height: 500px;
+	padding: 0 20px 20px 20px;
+	text-align: left;  
+}
+.col{
+	float: left;
+}
+
+.editor{
+	width: 1000px;
+	min-height: 100px;
+}
+.clear{
+	overflow: hidden;
+	clear: both;
+}
+body{
+   
+}
+h1{
+    color: #baec5b;
+    text-align: center;
+    font-style: italic;
+}
+
+
+ 
+.order-contact{
+    border: #baec5b;
+    color: aqua;
+}
+
+.contact{
+}
+
+#textbox{
+    size: 15%;
+}
+
+.order-form{
+    background-color: rgba(0,0,0,.5);
+    /* background: transparent; */
+    /* background: url(../img/choose.jpg); */
+    top: 10%;
+    left: 27%;
+    transform: translate(-12, -12);
+    box-sizing: border-box;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 50%;
+    height: auto;
+}
+
+input[type="text"],input[type="email"],input[type="date"],input[type="time"],input[type="phone"],input[type="number"], select{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding-bottom: 8px;
+}
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+
+  #showOrderList{
+    margin-bottom: 28px;
+    width: 220px;
+    height: 32px;
+    background: rgba(0, 0, 0, .2);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+
+  .order_1{
+      position: absolute;
+      display: inline;
+      top: 0;
+      left: 50%;
+      color: #fff;
+  }
+
+#orderlist p {
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: rgb(238, 183, 183);
+    position: relative;
+    top: -15px; 
+    transition: 0.2s ease-out;
+
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(238, 183, 183);
+    position: relative;
+    top: -15px; 
+    transition: 0.2s ease-out;
+  }
+  
+  ::placeholder {
+    color: rgb(238, 183, 183);
+    position: relative;
+    top: -15px; 
+    transition: 0.2s ease-out;
+
+  }
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+  background: #ff5722;
+  transition: 0.2s ease;
+}
+
+input[type="button"]:hover,
+input[type="button"]:focus{
+  background: #ff5722;
+  transition: 0.2s ease;
+}
+.footer{
+	text-align: center;
+	font-size: 15px;
+	border-top: 1px solid #dfdfdf;
+	margin-top: 400px;
+	padding: 20px 2px 15px 2px;
+	width: 100%;
+	overflow: hidden;
+}
+.foot{
+	text-align: center;
+	margin-top: 415px;
+	background-color: #444;
+	color: #fff;
+	overflow: hidden;
+}
+footer.fot{
+	border-top: 2px solid #dfdfdf;
+	text-align: center;
+	margin-top: 415px;
+	clear: both;
+	
+}
+

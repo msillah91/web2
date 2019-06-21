@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.wrap{
+	background: url(../imgs/new.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 654px;
+	overflow: hidden;
+}
+.contain{
+	width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form{
+	width: 45%;
+	margin: 50px auto;
+	text-align:left;
+	padding: 30px;
+	border: 1px solid #bbbbbb;
+	border-radius: 5px; 
+}
+ form input[type="email"],form input[type="password"], form select{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.input-group input, select{
+	height: 30px;
+	width: 93%;
+	padding: 5px 20px;
+	font-size: 16px;
+	border: 1px solid gray;
+	border-radius: 5px; 
+}
+
+
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5f9ea0;
+	border: none;
+	border-radius: 5px; 
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+nav,footer{
+	background-color: #000;
+	overflow: hidden;
+	
+}
+nav ul{
+text-align: center;
+
+ }
+nav ul li{
+display: inline-block;
+padding: 43px;
+ }
+ nav ul li a:hover{
+color: blue;
+ }
+ nav ul li a{
+text-decoration: none;
+color: #fff;
+ }
+ footer{
+ 	padding: 20px;
+ 	color: #fff;
+ 	text-align: center;
+ }
